@@ -1,10 +1,6 @@
 
-from fontTools.varLib.plot import stops
-from idlelib.pyshell import restart_line
 
 import time
-
-
 
 print('--*NON-SHOPPİNG*--')
 
@@ -21,7 +17,7 @@ test_item = test_item.lower()
 if test_item == 'apple':
     print('No mistakes typing apple.')
 else:
-     print('Please type apple correctly next time!')
+    print('Please type apple correctly next time!')
 
 time.sleep(3)
 
